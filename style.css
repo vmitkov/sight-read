@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.content > article {
+  flex: 4;
+  min-height: 60vh;
+}
+header, footer {
+  background: yellowgreen;
+  height: 20vh;
+}
+header, footer, article {
+  padding: 1em;
+}
